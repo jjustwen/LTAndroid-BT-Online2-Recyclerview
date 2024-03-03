@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="switch_mechanical_keyboard">Switch Mechanical Keyboard</string>
+    <string name="_4000_vnd">4000 vnd</string>
+    <string name="switch_picture">switch picture</string>
+    <string name="cart_icon">cart</string>
+    <string name="ch_n_m_i_v_tr_s_2">Chèn mới vị trí số 2</string>
+    <string name="thay_i_ph_n_t_s_3">Thay đổi phần tử số 3</string>
+    <string name="x_a_ph_n_t_u_ti_n">Xóa phần tử đầu tiên</string>
+</resources>

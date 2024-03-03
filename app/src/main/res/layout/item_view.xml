@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/switch_picture"
+        android:scaleType="fitXY"
+        android:src="@drawable/outemu_blue_switch" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/imgAvatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTenSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_mechanical_keyboard"
+            android:textColor="#00AC47"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGiaSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4000_vnd"
+            android:textColor="#676767"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/cart_icon"
+        android:src="@drawable/baseline_add_shopping_cart_24" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/imgAvatar"
+        android:layout_marginTop="5dp"
+        android:background="#E6E6E6" />
+</RelativeLayout>

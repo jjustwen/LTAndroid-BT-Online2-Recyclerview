@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_modify_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/thay_i_ph_n_t_s_3" />
+    <item
+        android:id="@+id/menu_insert_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/ch_n_m_i_v_tr_s_2" />
+    <item
+        android:id="@+id/menu_remove_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/x_a_ph_n_t_u_ti_n" />
+
+</menu>
